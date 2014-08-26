@@ -6,9 +6,9 @@ int main() {
    //int *res = squareArray(bas, 5);
   
    printf("testing for array of size 1\n");
-   int arr[1] = {1};
+   int arr[4] = {2};
    int *res = squareArray(arr, 1);
-   assert(1 == res[0]);
+   assert(4 == res[0]);
    printf("testing passed for array of size 1\n");
 
    printf("\n=====================================\n");
